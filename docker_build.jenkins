@@ -16,7 +16,8 @@ pipeline {
             steps {
                 echo " ============== start building image =================="
                 dir ('docker/toolbox') {
-                	sh 'docker build -t toolbox:latest . '
+                	sh 'docker build -t senigor/toolbox:latest . '
+// senigor/toolbox it is my docker hub repo
                 }
             }
         }
