@@ -1,5 +1,5 @@
 #!groovy
-// Checks opensuse local machine properties
+// Check opensuse local machine properties
 properties([disableConcurrentBuilds()])
 
 pipeline {
